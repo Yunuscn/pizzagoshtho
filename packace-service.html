@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant web sitesi-Sitemize hoşgeldiniz...</title>
+	<!-- Meta Etiketleri -->
+	<meta charset="utf-8">
+	<meta name="description" content="Restaurant Web Sitedi Lezzet Durağı">
+	<meta name="keywords" content="restaurant, Lezzet,  pizza, çorbalar, ev yemekleri, tatlılar, içecekler, sıcak soğuk içecekler">
+	<meta name="author" content="Yunus Can Sımpil">
+	<meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
+
+	<!-- CSS Bağlantıları -->
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	<!--  Site İconu -->
+	<link rel="shortcut icon" href="İmages/icon.png">
+
+	<!-- Yazı Ailesi Bağlantıları -->
+
+	<!-- Büyük Başlıklar İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+	<!-- İçerik Metni İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dosis&display=swap" rel="stylesheet">
+	<!-- İçerik metni için -->
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+	<!-- El Yazısı -->
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<!-- Alt Başlıklar İçin -->
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		$(function(){
+			$("#navMobileButton").click(function(){
+				$("#ulNavMobile").toggle();
+			})
+		})
+	</script>
+</head>
+
+<script type="text/javascript">
+  function olundu() {
+    window.alert("Abone Olundu");
+  }
+</script>
+
+<script type="text/javascript">
+  function gonderildi() {
+    window.alert("Siparişiniz başarı ile alındı.") ;
+  }
+</script>
+
+<body>
+	<!-- Header Başlangıcı -->
+	<header id="contentHeader" style="background: url(İmages/packace-bc.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+		<div id="contentHeaderContainer">
+			<div id="headerTop">
+				<ul id="ulTopLeft">
+					<li><a href="index.html">ANASAYFA</a></li>
+					<li><a href="about-us.html">HAKKIMIZDA</a></li>
+					<li><a href="contact.html">İLETİŞİM</a></li>
+				</ul>
+				<div id="topRight">
+
+					<div class="topContactLogo">
+						<img src="İmages/phone-icon.png">
+					</div>
+
+					<div class="topContactText" style="color: rgb(9, 86, 27)">
+						0555 198 72 34
+					</div>
+
+					<div class="topContactLogo">
+						<img src="İmages/email-icon.png">
+					</div>
+
+					<div class="topContactText" style="color: rgb(9, 86, 27)">
+						Pizzagoshtho@gmail.com
+					</div>
+					
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+			
+	
+		</div>
+                          <!-- Nav Başlangıcı -->
+
+		<nav>
+			<div id="navContainer">
+				<div id="navLogo">PİZZA GOSHTHO</div>
+				<ul id="ulNavRight">
+					<li>
+						<a href="index.html">ANASAYFA</a>
+					</li>
+					<li>
+						<a href="menü.html">MENÜ</a>
+					</li>
+					<li>
+						<a href="packace-service.html">PAKET SERVİS</a>
+					</li>
+					<li>
+						<a href="contact.html">İLETİŞİM</a>
+					</li>
+				</ul>
+				<div id="navMobileButton"></div>
+				<ul id="ulNavMobile"> 
+					<li>
+						<a href="index.html">ANASAYFA</a>
+					</li>
+					<li>
+						<a href="about-us.html">HAKKIMIZDA</a>
+					</li>
+					<li>
+						<a href="menü.html">MENÜ</a>
+					</li>
+					<li>
+						<a href="packace-service.html">PAKET SERVİS</a>
+					</li>
+					<li>
+						<a href="contact.html">İLETİŞİM</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- Section Başlangıcı -->
+	<h1 align="center" style="color: rgb(9, 86, 27)">SİPARİŞ FORMU</h1>
+	<section class="contentContainer">
+		<div class="packaceParts">
+			<h1>İSTEDİĞİNİZ PİZZANIN ÖZELLİKLERİNİ GİRİNİZ</h1>
+			<form>
+			<table class="paket">
+				<tr>
+					<td>
+						<select name="pizza">
+							<option value="0">İstediğiniz pizzanın türünü seçiniz...</option>
+							<option value="1">Margarita</option>
+							<option value="2">Tavuklu Pizza</option>
+							<option value="3">Karışık Pizza</option>
+							<option value="4">Ton Balıklı Pizza</option>
+							<option value="5">Kavurmalı Pizza</option>
+							<option value="6">Special Pizza</option>
+							<option value="7">Marntarlı Pizza</option>
+							<option value="8">Cheese Pizza</option>
+							<option value="9">Vejeteryan Pizza</option>
+							<option value="10">Kıymalı Pizza</option>
+							<option value="11">Kuşbaşılı Pizza</option>
+							<option value="12">Sucuklu Pizza</option>
+							<option value="13">Ness Special</option>
+							<option value="14">Tatlı Pizza</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<br/>
+
+			Pizza Boyutu: 
+			<input type="radio" name="boyut" value="küçük" />Küçük Boy
+			<input type="radio" name="boyut" value="orta" />Orta Boy
+			<input type="radio" checked name="boyut" value="büyük" />Büyük Boy
+
+			<table class="paket">
+				<tr>
+					<td>
+						<select name="içecek">
+							<option value="0">Lütfen İçecek Seçiniz...</option>
+							<option value="1">İçecek İstemiyorum</option>
+							<option value="2">su (1₺)</option>
+							<option value="3">Ayran (3₺)</option>
+							<option value="4">Coca-Cola(33cl) (3,5₺)</option>
+							<option value="5">Coca-Cola(1L) (6₺)</option>
+							<option value="6">Coca-Cola light(33cl) (3,5₺)</option>
+							<option value="7">Coca-Cola light(1L) (6₺)</option>
+							<option value="8">Coca-Cola zero(33cl) (3,5₺)</option>
+							<option value="9">Coca-Cola zero(1L) (6₺)</option>
+							<option value="10">Fanta(33cl) (3,5₺)</option>
+							<option value="11">Fanta(1L) (6₺)</option>
+							<option value="12">Sprite(33cl) (3,5₺)</option>
+							<option value="13">Sprite(1L) (6₺)</option>
+							<option value="14">Şişe cola (4₺)</option>
+							<option value="15">Lipton Ice Tea(33cl) (3,5₺)</option>
+							<option value="16">Soda (2,5₺)</option>
+							<option value="17">Meyveli Soda (3,5₺)</option>
+
+
+
+						</select>
+					</td>
+				</tr>
+			</table>
+
+			<table class="paket">
+				<tr>
+					<td>
+						<select name="yanürün">
+							<option value="0">Yan Ürün Seçiniz...</option>
+							<option value="1">Yan Ürün İstemiyorum</option>
+							<option value="2">Patates Kızartması (10₺)</option>
+							<option value="3">Karışık Tost (9₺)</option>
+							<option value="4">Kaşarlı Tost (8₺)</option>
+							<option value="5">Çorba (7₺)</option>
+							<option value="6">Soğuk Sandviç (9₺)</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+		</div>
+
+		<div class="packaceParts">
+			<h1>ADRES BİLGİLERİNİZİ GİRİNİZ</h1>
+			<form>
+				<input class="input inputLeft" type="text" name="name" placeholder="Adınızı giriniz." required>
+
+				<input class="input inputRight" type="text" name="surname" placeholder="Soyadınızı giriniz." required>
+				<div style="clear: both;"></div>
+
+				<table class="paket">
+					<tr>
+						<td>
+							<select name="İl" >
+								<option value="0">Lütfen il seçiniz...</option>
+							    <option value="1">Adana</option>
+							    <option value="2">Adıyaman</option>
+							    <option value="3">Afyonkarahisar</option>
+							    <option value="4">Ağrı</option>
+							    <option value="5">Amasya</option>
+							    <option value="6">Ankara</option>
+							    <option value="7">Antalya</option>
+							    <option value="8">Artvin</option>
+							    <option value="9">Aydın</option>
+							    <option value="10">Balıkesir</option>
+							    <option value="11">Bilecik</option>
+							    <option value="12">Bingöl</option>
+							    <option value="13">Bitlis</option>
+							    <option value="14">Bolu</option>
+							    <option value="15">Burdur</option>
+							    <option value="16">Bursa</option>
+							    <option value="17">Çanakkale</option>
+							    <option value="18">Çankırı</option>
+							    <option value="19">Çorum</option>
+							    <option value="20">Denizli</option>
+							    <option value="21">Diyarbakır</option>
+							    <option value="22">Edirne</option>
+							    <option value="23">Elazığ</option>
+							    <option value="24">Erzincan</option>
+							    <option value="25">Erzurum</option>
+							    <option value="26">Eskişehir</option>
+							    <option value="27">Gaziantep</option>
+							    <option value="28">Giresun</option>
+							    <option value="29">Gümüşhane</option>
+							    <option value="30">Hakkâri</option>
+							    <option value="31">Hatay</option>
+							    <option value="32">Isparta</option>
+							    <option value="33">Mersin</option>
+							    <option value="34">İstanbul</option>
+							    <option value="35">İzmir</option>
+							    <option value="36">Kars</option>
+							    <option value="37">Kastamonu</option>
+							    <option value="38">Kayseri</option>
+							    <option value="39">Kırklareli</option>
+							    <option value="40">Kırşehir</option>
+							    <option value="41">Kocaeli</option>
+							    <option value="42">Konya</option>
+							    <option value="43">Kütahya</option>
+							    <option value="44">Malatya</option>
+							    <option value="45">Manisa</option>
+							    <option value="46">Kahramanmaraş</option>
+							    <option value="47">Mardin</option>
+							    <option value="48">Muğla</option>
+							    <option value="49">Muş</option>
+							    <option value="50">Nevşehir</option>
+							    <option value="51">Niğde</option>
+							    <option value="52">Ordu</option>
+							    <option value="53">Rize</option>
+							    <option value="54">Sakarya</option>
+							    <option value="55">Samsun</option>
+							    <option value="56">Siirt</option>
+							    <option value="57">Sinop</option>
+							    <option value="58">Sivas</option>
+							    <option value="59">Tekirdağ</option>
+							    <option value="60">Tokat</option>
+							    <option value="61">Trabzon</option>
+							    <option value="62">Tunceli</option>
+							    <option value="63">Şanlıurfa</option>
+							    <option value="64">Uşak</option>
+							    <option value="65">Van</option>
+							    <option value="66">Yozgat</option>
+							    <option value="67">Zonguldak</option>
+							    <option value="68">Aksaray</option>
+							    <option value="69">Bayburt</option>
+							    <option value="70">Karaman</option>
+							    <option value="71">Kırıkkale</option>
+							    <option value="72">Batman</option>
+							    <option value="73">Şırnak</option>
+							    <option value="74">Bartın</option>
+							    <option value="75">Ardahan</option>
+							    <option value="76">Iğdır</option>
+							    <option value="77">Yalova</option>
+							    <option value="78">Karabük</option>
+							    <option value="79">Kilis</option>
+							    <option value="80">Osmaniye</option>
+							    <option value="81">Düzce</option>
+							</select>
+						</td>
+
+
+					</tr>
+				</table>
+
+				<textarea name="message" placeholder="Adresinizi buraya giriniz..." required></textarea>
+
+				
+			</form>
+		</div>
+		<div style="clear: left;"></div>
+
+		<input id="butonpakte" type="submit" value="Siparişi Ver" onclick="gonderildi()">
+	</section>
+	
+
+	<!-- Footer bBaşlangıç -->
+	<footer>
+		<div id="footerContainer">
+			<div class="footerBox">
+				<h1>PİZZA GOSHTHO</h1>
+				<a href="https://www.facebook.com/pizzagoshthocafe"><img src="İmages/facebook-icon.png"></a>
+				<a href="https://www.instagram.com/pizza_goshtho_cafe/"><img src="İmages/instagram-icon.png"></a>
+				<a href="https://twitter.com/cansikintisiiii"><img src="İmages/twitter-icon.png"></a>
+			</div>
+
+			<div class="footerBox">
+				<h2>BİZE ULAŞIN</h2>
+				<p><span style="color: rgb(9, 86, 27)">Tel </span>: 0555 198 7234</p>
+				<p><span style="color: rgb(9, 86, 27)">Email </span>: Pizzagoshtho@gmail.com</p><br/>
+				<p><span style="color: rgb(9, 86, 27)">Adres </span>: Pınar Mah. 19 Mayıs Bulv. Ak Meydan Avm (AK TOWERS SİT.)1269. Sk. No.40-42/94 Esenyurt - İstanbul (Devlet Hastanesi Karşısı)</p>
+			</div>
+
+			<div class="footerBox">
+				<h2>ABONE OL</h2>
+				<p>İndirim ve etkinliklerimizden haberdar olmak içi abone olmayı unutmayın...</p>
+				<form>
+					<input type="email" name="email" placeholder="Email adresinizi giriniz" required><br/>
+					<input type="submit" value="Abone Ol" onclick="olundu()" style="background-color: rgb(9, 86, 27); color: #ffffff; cursor: pointer;">
+				</form>
+			</div>
+
+			<div style="clear: left;"></div>
+		</div>
+		<div id="copyright">
+			&copy 2021 - Bu websitesi tamamen eğitim için yazılmış ve böyle bir yerin var olmasına rağmen bazı bilgiler yanlıştır.
+		</div>
+	</footer>
+</body>
+</html>

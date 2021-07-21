@@ -1,0 +1,3527 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+body {
+	font-family: "Dosis", cursive;
+}
+
+h1 {
+	font-family: 'Bungee' cursive;
+}
+
+h2,h3 {
+	font-family: 'Yanone Kaffeesatz' cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul {
+	list-style-type: none;
+}
+
+@media screen and (min-width: 1366px) {
+
+	/* Header Başlangıcı */
+	header#mainHeader {
+		width: 100%;
+		height: 750px;
+		position: relative;
+		background: url(../İmages/hd.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 1346px;
+		height: 750px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 1346px;
+		height: 400px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop {
+		width: 1346px;
+		height: 50px ;
+		position: relative;
+	}
+
+	ul#ulTopLeft {
+		list-style-type: none;
+		display: inline-block;
+		float: left;
+	}
+
+	ul#ulTopLeft li {
+		display: inline-block;
+		line-height: 30px;
+		border-right: 1px solid #95a5a6;
+		padding: 10px;
+	}
+
+	ul#ulTopLeft li:first-child {
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child {
+		border-right: 0;
+	}
+
+	ul#ulTopLeft li a{
+		color: #95a5a6;
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+	}
+
+	div#topRight {
+		height: 50px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo {
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.topContactText {
+		height: 50px;
+		line-height: 50px;
+		float: left;
+		margin-left: 20px;
+		color: #95a5a6
+	}
+
+	/*    nav başlanıç      */
+
+	div#navMobileButton {
+		display: none;
+	}
+
+	ul#ulNavMobile {
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		height: 80px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 50px;
+	}
+
+	div#navContainer {
+		width: 1346px;
+		height: 80px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Bungee', cursive;
+		color: #ffffff;
+		font-size:30px;
+		line-height: 80px;
+		display: inline;
+		float: left;
+
+	}
+
+	ul#ulNavRight {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+
+	ul#ulNavRight li {
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a {
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover {
+		color: #95a5a6;
+	}
+
+	div#headerText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 20px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons {
+		margin-top: 20px;
+
+	}
+
+	div#headerButtons a {
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: transparent;
+	}
+
+
+	div#headerButtons a:hover {
+		background: rgb(9, 86, 27);
+	}
+
+
+	    /* Section Başlangıcı */
+
+	    /* Birinci Section */
+
+	section.limitedSec {
+		width: 1346px;
+		height: 750px;
+		position: relative;
+		margin:auto;
+		margin-top: 50px
+	}
+
+	section.limitedSec h1, section.limitedSec h2 {
+		text-align: center; 
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 1px solid #000000;
+		padding: 10px;
+		box-sizing: border-box;
+		float: left;
+	}
+
+	section.limitedSec article {
+		width: 663px;
+		float: right;
+		margin-top: 50px;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+
+	section.limitedSec article p {
+		margin-top: 20px;
+	}
+
+	/* İkinci Section */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		background: #000000;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menüContainer {
+		width: 1346px;
+		height: 640px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	section.unlimitedSec div#menüContainer img {
+		width: 300px;
+		height: 300px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer img:hover {
+		opacity: 1;
+		transform: scale(1.01);
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer{
+		width: 900px;
+		height: 300px;
+		position: absolute;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer h1{
+		color: #ffffff;
+		line-height: 60px;
+		text-align: center;
+		margin-top: 90px;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a{
+		width: 240px;
+		height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		line-height: 60px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a:hover{
+		background: rgb(9, 86, 27);
+	}
+
+	                   /* Üçüncü Section */
+
+	section.limitedSec div#teamContainer {
+		width: 1200px;
+		position: relative;
+		margin: auto;
+		height: 70px;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile {
+		width: 350px;
+		position: relative;
+		float: left;
+		margin-left: 37.5px;
+		overflow: hidden;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile img {
+		width:350px;
+		height: 525px;
+	}
+
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover {
+		width: 350px;
+		height: 525px;
+		background: red;
+		position: absolute;
+		top: 50px;
+		left: -350px;
+		transition: all .5s ease;
+		background: url(../İmages/image1.jpg);
+		opacity: 0.7;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile:hover div.teamHover {
+		left:0;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText {
+		background: #000000;
+		color: #ffffff;
+		line-height: 60px;
+		margin-top: 202.5px;
+		text-shadow: 1px 1px1px #000000;
+	}
+
+	                /* Yondaime Section */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 1346px;
+		height: 650px;
+		position: relative;
+		margin:auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 673px;
+		height: 650px;
+		position: relative;
+		float: left;
+		background: rgba(0,0,0,0.5);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1 {
+		font-size: 40px;
+		line-height: 80px;
+		margin-top: 130px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2 {
+		font-size: 30px;
+		line-height: 60px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p {
+		font-size: 20px;
+		line-height: 32px;
+		width: 500px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	section.contentContainer {
+		width: 1346px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	/* Hakkımızda Başlangıcı */
+
+	section.contentContainer h1, section.contentContainer h2 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		line-height: 30px;
+		margin: 20px 0;
+	}
+
+	section.contentContainer div.managerBox {
+		width: 350px;
+		margin: auto;
+		position: relative;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img {
+		width: 350px;
+	}
+
+	/* İletişim Başlangıcı */
+
+	section.contentContainer div.contactParts {
+		width: 640px;
+		position: relative;
+		float: left;
+		margin-left: 22px;
+	}
+
+	section.contentContainer div.contactParts h2{
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.contactParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts form input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.contactParts form input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.contactParts textarea {
+		width: 640px;
+		height: 320px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input.submit {
+		width: 310px;
+		height:  40px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input.submit:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	section.unlimitedSec iframe {
+		width: 100%;
+		height: 450px;
+		position: relative;
+	}
+
+	/*Menü Başlangıcı*/
+
+	section#menüSec {
+		background: url(../İmages/m-bc.jpg);
+		height: 2100px;
+	}
+
+	section.contentContainer table.menüTable, section.contentContainer table.menüTable tr, section.contentContainer table.menüTable tr td {
+		border: 1px solid ;
+		width: 1009px;
+	}
+
+	section.contentContainer table.menüTable {
+		margin-top: 15px;
+		margin-left: 168.5px;
+	}
+
+	div#headerMenüText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div.headerMenüButtons {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.headerMenüButtons a {
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: rgb(9, 86, 27);
+		margin-left: 160px;
+	}
+
+	div.headerMenüButtons:first-child {
+		margin-left: 200px;
+	}
+
+
+	div#pizzayolu a:hover {
+		background: url(../İmages/m-pzza.jpg);
+	}
+
+	div#iccekyolu a:hover {
+		background: url(../İmages/m-iccek.jpg);
+	}
+
+	div#yanyolu a:hover {
+		background: url(../İmages/m-pttes.jpg);
+	}
+
+	section.contentContainer div#packaceContainer {
+		width: 240px;
+		height: 60px;
+		border: 1px solid #ffffff;
+		margin-top: 245px;
+		text-align: center;
+		margin-left: 550px;
+		margin-top: 50px;
+	}
+
+	section.contentContainer div#packaceContainer a {
+		width: 240px;
+		height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		line-height: 60px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+		background: rgb(9, 86, 27);
+		margin:auto;
+	}
+
+	section.contentContainer div#packaceContainer a:hover {
+		background: url(../İmages/pck.png);
+	}
+
+
+	/* Paket Servis Bölümü */
+
+
+	section.contentContainer div.packaceParts {
+		width: 640px;
+		position: relative;
+		float: left;
+		margin-left: 22px;
+	}
+
+	section.contentContainer div.packaceParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.packaceParts form input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.packaceParts form input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.packaceParts table.paket {
+		width: 640px;
+		height: 30px;
+		border: 1px solid #95a5a6;
+		margin-top: 25px;
+	}
+
+	section.contentContainer div.packaceParts table.paket tr td select {
+		width: 600px;
+		margin-left: 20px;
+	}
+
+	section.contentContainer div.packaceParts textarea {
+		width: 640px;
+		height: 150px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte {
+		width: 300px;
+		height:  50px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 40px;
+		background: transparent;
+		margin-left: 556.5px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+
+	      /* Footer Alanı */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../İmages/footer.jpg) 3px;
+	}
+
+	footer div#footerContainer {
+		width: 1200px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 400px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	footer div#footerContainer div.footerBox h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 45px;
+	}
+
+	footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid rgb(9, 86, 27);
+		width: 350px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p {
+		text-align: left;
+		line-height: 30px;
+		width: 350px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input {
+		width: 350px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1365px) {
+
+    /* Header Başlangıcı */
+	header#mainHeader {
+		width: 100%;
+		height: 750px;
+		position: relative;
+		background: url(../İmages/hd.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 940px;
+		height: 750px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 940px;
+		height: 400px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop {
+		width: 940px;
+		height: 50px ;
+		position: relative;
+	}
+
+	ul#ulTopLeft {
+		list-style-type: none;
+		display: inline-block;
+		float: left;
+	}
+
+	ul#ulTopLeft li {
+		display: inline-block;
+		line-height: 30px;
+		border-right: 1px solid #95a5a6;
+		padding: 10px;
+	}
+
+	ul#ulTopLeft li:first-child {
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child {
+		border-right: 0;
+	}
+
+	ul#ulTopLeft li a{
+		color: #95a5a6;
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+	}
+
+	div#topRight {
+		height: 50px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo {
+		width: 30px;
+		height: 30px;
+		margin-top: 10px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.topContactText {
+		height: 50px;
+		line-height: 50px;
+		float: left;
+		margin-left: 20px;
+		color: #95a5a6
+	}
+
+	/*    nav başlanıç      */
+
+	div#navMobileButton {
+		display: none;
+
+	}
+
+	ul#ulNavMobile {
+		display: none;
+	}
+
+	nav {
+		width: 100%;
+		height: 80px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 50px;
+	}
+
+	div#navContainer {
+		width: 940px;
+		height: 80px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Bungee', cursive;
+		color: #ffffff;
+		font-size:30px;
+		line-height: 80px;
+		display: inline;
+		float: left;
+
+	}
+
+	ul#ulNavRight {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+	}
+
+	ul#ulNavRight li {
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a {
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover {
+		color: #95a5a6;
+	}
+
+	div#headerText {
+		margin-top: 180px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 40px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 20px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons {
+		margin-top: 20px;
+
+	}
+
+	div#headerButtons a {
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: transparent;
+	}
+
+
+	div#headerButtons a:hover {
+		background: rgb(9, 86, 27);
+	}
+
+
+	    /* Section Başlangıcı */
+
+	    /* Birinci Section */
+
+	section.limitedSec {
+		width: 940px;
+		position: relative;
+		margin:auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2 {
+		text-align: center; 
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 1px solid #000000;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	section.limitedSec article {
+		width: 663px;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+
+	section.limitedSec article p {
+		margin-top: 20px;
+	}
+
+	/* İkinci Section */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		background: #000000;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menüContainer {
+		width: 940px;
+		height: 640px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	section.unlimitedSec div#menüContainer img {
+		width: 235px;
+		height: 235px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer img:hover {
+		opacity: 1;
+		transform: scale(1.01);
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer{
+		width: 705px;
+		height: 300px;
+		position: absolute;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer h1{
+		color: #ffffff;
+		line-height: 60px;
+		text-align: center;
+		margin-top: 100px;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a{
+		width: 240px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		line-height: 50px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a:hover{
+		background: rgb(9, 86, 27);
+	}
+
+	                   /* Üçüncü Section */
+
+	section.limitedSec div#teamContainer {
+		width: 940px;
+		position: relative;
+		margin: auto;
+		height: 70px;
+	}
+
+	section#sıkıntı{
+		height: 570px;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile {
+		width: 300px;
+		position: relative;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile img {
+		width: 300px;
+		height: 450px;
+	}
+
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover {
+		width: 300px;
+		height: 450px;
+		background: red;
+		position: absolute;
+		top: 50px;
+		left: -300px;
+		transition: all .5s ease;
+		background: url(../İmages/image1.jpg);
+		opacity: 0.7;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile:hover div.teamHover {
+		left:0;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText {
+		background: #000000;
+		color: #ffffff;
+		line-height: 50px;
+		margin-top: 175px;
+		text-shadow: 1px 1px1px #000000;
+	}
+
+	                /* Yondaime Section */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 940px;
+		height: 500px;
+		position: relative;
+		margin:auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 470px;
+		height: 500px;
+		position: relative;
+		float: left;
+		background: rgba(0,0,0,0.5);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1 {
+		font-size: 35px;
+		line-height: 80px;
+		margin-top: 75px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2 {
+		font-size: 25px;
+		line-height: 60px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p {
+		font-size: 18px;
+		line-height: 28px;
+		width: 450px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	section.contentContainer {
+		width: 940px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	/* Hakkımızda Başlangıcı */
+
+	section.contentContainer h1, section.contentContainer h2 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		line-height: 30px;
+		margin: 20px 0;
+		text-align: justify;
+	}
+
+	section.contentContainer div.managerBox {
+		width: 350px;
+		margin: auto;
+		position: relative;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img {
+		width: 350px;
+	}
+
+	/* İletişim Başlangıcı */
+
+	section.contentContainer div.contactParts {
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer div.contactParts h2{
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.contactParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.contactParts input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.contactParts textarea {
+		width: 640px;
+		height: 320px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts form input.submit {
+		width: 310px;
+		height:  40px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	section.unlimitedSec iframe {
+		width: 100%;
+		height: 350px;
+		position: relative;
+	}
+
+	/*Menü Başlangıcı*/
+
+	section#menüSec {
+		background: url(../İmages/m-bc.jpg);
+		height: 2070px;
+	}
+
+	section.contentContainer table.menüTable, section.contentContainer table.menüTable tr, section.contentContainer table.menüTable tr td {
+		border: 1px solid ;
+		width: 900px;
+	}
+
+	section.contentContainer table.menüTable {
+		margin-top: 15px;
+		margin-left:20px;	}
+
+	div#headerMenüText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div.headerMenüButtons {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.headerMenüButtons a {
+		line-height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: rgb(9, 86, 27);
+		margin-left: 150px;
+	}
+
+	
+
+
+	div#pizzayolu a:hover {
+		background: url(../İmages/m-pzza.jpg);
+	}
+
+	div#iccekyolu a:hover {
+		background: url(../İmages/m-iccek.jpg);
+	}
+
+	div#yanyolu a:hover {
+		background: url(../İmages/m-pttes.jpg);
+	}
+
+	section.contentContainer div#packaceContainer {
+		width: 240px;
+		height: 60px;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+		margin-left: 349px;
+		margin-top: 50px;
+	}
+
+	section.contentContainer div#packaceContainer a {
+		width: 240px;
+		height: 60px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		line-height: 60px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+		background: rgb(9, 86, 27);
+	}
+
+	section.contentContainer div#packaceContainer a:hover {
+		background: url(../İmages/pck.png);
+	}
+
+	/* Paket Servis Bölümü */
+
+
+	section.contentContainer div.packaceParts {
+		width: 640px;
+		position: relative;
+		margin-left: 150px;
+	}
+
+	section.contentContainer div.packaceParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.packaceParts form input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.packaceParts form input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.packaceParts table.paket {
+		width: 640px;
+		height: 30px;
+		border: 1px solid #95a5a6;
+		margin-top: 25px;
+	}
+
+	section.contentContainer div.packaceParts table.paket tr td select {
+		width: 640px;
+	}
+
+	section.contentContainer div.packaceParts textarea {
+		width: 640px;
+		height: 150px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte {
+		width: 300px;
+		height:  50px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 40px;
+		background: transparent;
+		margin-left: 330px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	      /* Footer Alanı */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../İmages/footer.jpg) 3px;
+	}
+
+	footer div#footerContainer {
+		width: 940px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 313.3px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+	}
+
+	footer div#footerContainer div.footerBox h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 45px;
+	}
+
+	footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid rgb(9, 86, 27);
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p {
+		text-align: left;
+		line-height: 30px;
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input {
+		width: 300px;
+		height: 40px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 720px) and (max-width: 959px) {
+
+    /* Header Başlangıcı */
+	header#mainHeader {
+		width: 100%;
+		height: 500px;
+		position: relative;
+		background: url(../İmages/hd.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 700px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 700px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop {
+		width: 700px;
+		height: 40px ;
+		position: relative;
+	}
+
+	ul#ulTopLeft {
+		list-style-type: none;
+		display: inline-block;
+		float: left;
+	}
+
+	ul#ulTopLeft li {
+		display: inline-block;
+		line-height: 20px;
+		border-right: 1px solid #95a5a6;
+		padding: 10px;
+	}
+
+	ul#ulTopLeft li:first-child {
+		padding-left: 0;
+	}
+
+	ul#ulTopLeft li:last-child {
+		border-right: 0;
+	}
+
+	ul#ulTopLeft li a{
+		color: #95a5a6;
+	}
+
+	ul#ulTopLeft li a:hover{
+		color: #ffffff;
+	}
+
+	div#topRight {
+		height: 40px;
+		position: relative;
+		float: right;
+	}
+
+	div.topContactLogo {
+		width: 30px;
+		height: 30px;
+		margin-top: 5px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.topContactText {
+		height: 40px;
+		line-height: 40px;
+		float: left;
+		margin-left: 20px;
+		color: #95a5a6
+	}
+
+	/*    nav başlanıç      */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 700px;
+		height: 60px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Bungee', cursive;
+		color: #ffffff;
+		font-size:30px;
+		line-height: 60px;
+		display: inline;
+		float: left;
+
+	}
+
+	ul#ulNavRight {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+	/*  desktop nav
+	ul#ulNavRight li {
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a {
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover {
+		color: #95a5a6;
+	}
+
+	*/
+
+	/* nav mobile*/
+
+	div#navMobileButton {
+		width: 40px;
+		height:40px;
+		position: relative;
+		float: right;
+		background: url(../İmages/menu-icon.png);
+		margin-top: 10px;
+
+	}
+
+	ul#ulNavMobile {
+		width: 700px;
+		position:absolute;
+		top: 60px;
+		background:rgb(9, 86, 27);
+		display: none;
+		z-index: 1;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child {
+		border:0;
+	}
+
+	ul#ulNavMobile li a {
+		width: 700px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover {
+		background: #ffffff;
+		color: rgb(9, 86, 27);
+	}
+
+	div#headerText {
+		margin-top: 100px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 80px;
+		font-size: 30px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 60px;
+		font-size: 30px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 40px;
+		font-size: 18px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons {
+		margin-top: 20px;
+
+	}
+
+	div#headerButtons a {
+		line-height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: transparent;
+	}
+
+
+	div#headerButtons a:hover {
+		background: rgb(9, 86, 27);
+	}
+
+
+	    /* Section Başlangıcı */
+
+	    /* Birinci Section */
+
+	section.limitedSec {
+		width: 700px;
+		position: relative;
+		margin:auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2 {
+		text-align: center; 
+	}
+
+	section.limitedSec img {
+		width: 663px;
+		margin-top: 50px;
+		border: 1px solid #000000;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	section.limitedSec article {
+		width: 663px;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+
+	section.limitedSec article p {
+		margin-top: 20px;
+	}
+
+	/* İkinci Section */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		background: #000000;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menüContainer {
+		width: 700px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	section.unlimitedSec div#menüContainer img {
+		width: 175px;
+		height: 175px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer img:hover {
+		opacity: 1;
+		transform: scale(1.01);
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer{
+		width: 525px;
+		height: 175px;
+		position: absolute;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer h1{
+		color: #ffffff;
+		text-align: center;
+		margin-top: 38.5px;
+		font-size: 22px;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a{
+		width: 220px;
+		height: 40px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		line-height: 40px;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a:hover{
+		background: rgb(9, 86, 27);
+	}
+
+	                   /* Üçüncü Section */
+
+	section.limitedSec div#teamContainer {
+		width: 700px;
+		position: relative;
+		margin: auto;
+		height: 70px;
+	}
+
+	section#sıkıntı {
+		height: 450px;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile {
+		width: 220px;
+		position: relative;
+		float: left;
+		margin-left: 10px;
+		overflow: hidden;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile img {
+		width: 220px;
+		height: 320px;
+	}
+
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover {
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: 50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../İmages/image1.jpg);
+		background-size: cover;
+		background-position: center;
+		opacity: 0.7;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile:hover div.teamHover {
+		left:0;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText {
+		background: #000000;
+		color: #ffffff;
+		line-height: 50px;
+		margin-top: 110px;
+		text-shadow: 1px 1px1px #000000;
+	}
+
+	                /* Yondaime Section */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 700px;
+		height: 350px;
+		position: relative;
+		margin:auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 700px;
+		height: 350px;
+		position: relative;
+		float: left;
+		background: rgba(0,0,0,0.5);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1 {
+		font-size: 30px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2 {
+		font-size: 22px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p {
+		font-size: 18px;
+		line-height: 28px;
+		width: 450px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	section.contentContainer {
+		width: 700px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	/* Hakkımızda Başlangıcı */
+
+	section.contentContainer h1, section.contentContainer h2 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		line-height: 30px;
+		margin: 20px 0;
+		text-align: justify;
+	}
+
+	section.contentContainer div.managerBox {
+		width: 350px;
+		margin: auto;
+		position: relative;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img {
+		width: 350px;
+	}
+
+	/* İletişim Başlangıcı */
+
+	section.contentContainer div.contactParts {
+		width: 640px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer div.contactParts h2{
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.contactParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.contactParts input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.contactParts textarea {
+		width: 640px;
+		height: 320px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts form input.submit {
+		width: 310px;
+		height:  40px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		background: transparent;
+		margin-left: 165px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	section.unlimitedSec iframe {
+		width: 100%;
+		height: 350px;
+		position: relative;
+	}
+
+	/*Menü Başlangıcı*/
+
+	section#menüSec {
+		background: url(../İmages/m-bc.jpg);
+		height: 2050px;
+	}
+
+	section.contentContainer table.menüTable, section.contentContainer table.menüTable tr, section.contentContainer table.menüTable tr td {
+		border: 1px solid ;
+		width: 670px;
+	}
+
+	section.contentContainer table.menüTable {
+		margin-top: 15px;
+		margin-left:15px;	}
+
+	div#headerMenüText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div.headerMenüButtons {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.headerMenüButtons a {
+		display: none;
+	}
+
+	div#pizzayolu a:hover {
+		background: url(../İmages/m-pzza.jpg);
+	}
+
+	div#iccekyolu a:hover {
+		background: url(../İmages/m-iccek.jpg);
+	}
+
+	div#yanyolu a:hover {
+		background: url(../İmages/m-pttes.jpg);
+	}
+
+	section.contentContainer div#packaceContainer {
+		width: 240px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+		margin-left: 230px;
+		margin-top: 50px;
+	}
+
+	section.contentContainer div#packaceContainer a {
+		width: 240px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		line-height: 50px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+		background: rgb(9, 86, 27);		
+	}
+
+	section.contentContainer div#packaceContainer a:hover {
+		background: url(../İmages/pck.png);
+	}
+
+				/* Paket Servis Bölümü */
+
+
+	section.contentContainer div.packaceParts {
+		width: 640px;
+		position: relative;
+		float: left;
+		margin-left: 20px;
+	}
+
+	section.contentContainer div.packaceParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin-top: 20px;
+		text-align: center;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.packaceParts form input.inputLeft{
+		float: left;
+	}
+
+	section.contentContainer div.packaceParts form input.inputRight{
+		float: right;
+	}
+
+	section.contentContainer div.packaceParts table.paket {
+		width: 640;
+		height: 30px;
+		border: 1px solid #95a5a6;
+		margin-top: 25px;
+	}
+
+	section.contentContainer div.packaceParts table.paket tr td select {
+		width: 640px;
+	}
+
+	section.contentContainer div.packaceParts textarea {
+		width: 640px;
+		height: 150px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte {
+		width: 310px;
+		height:  50px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 40px;
+		background: transparent;
+		margin-left: 200px;
+		transition: all .2s ease;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+
+	      /* Footer Alanı */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../İmages/footer.jpg) 3px;
+	}
+
+	footer div#footerContainer {
+		width: 700px;
+		position: relative;
+		margin: auto;
+		padding: 100px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 220px;
+		position: relative;
+		float: left;
+		text-align: center;
+		color: #ffffff;
+		margin-left: 10px;
+		margin-top: 30px;
+	}
+
+	footer div#footerContainer div.footerBox h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 40px;
+		margin-top: 10px;
+	}
+
+	footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid rgb(9, 86, 27);
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p {
+		text-align: left;
+		line-height: 30px;
+		width: 220px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input {
+		width: 220px;
+		height: 35px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+
+    /* Header Başlangıcı */
+	header#mainHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+		background: url(../İmages/hd.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 460px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 460px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop {
+		width: 460px;
+		height: 40px ;
+		position: relative;
+	}
+
+	ul#ulTopLeft {
+		display: none;
+	}
+
+	div#topRight {
+		display: none;
+	}
+
+	/*    nav başlanıç      */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 460px;
+		height: 60px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Bungee', cursive;
+		color: #ffffff;
+		font-size:30px;
+		line-height: 60px;
+		display: inline;
+		float: left;
+
+	}
+
+	ul#ulNavRight {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+	/*  desktop nav
+	ul#ulNavRight li {
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a {
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover {
+		color: #95a5a6;
+	}
+
+	*/
+
+	/* nav mobile*/
+
+	div#navMobileButton {
+		width: 40px;
+		height:40px;
+		position: relative;
+		float: right;
+		background: url(../İmages/menu-icon.png);
+		margin-top: 10px;
+
+	}
+
+	ul#ulNavMobile {
+		width: 460px;
+		position:absolute;
+		top: 60px;
+		background:rgb(9, 86, 27);
+		display: none;
+		z-index: 1;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child {
+		border:0;
+	}
+
+	ul#ulNavMobile li a {
+		width: 460px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover {
+		background: #ffffff;
+		color: rgb(9, 86, 27);
+	}
+
+	div#headerText {
+		margin-top: 100px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 50px;
+		font-size: 28px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 50px;
+		font-size: 23px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		line-height: 32px;
+		font-size: 15px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons {
+		margin-top: 20px;
+
+	}
+
+	div#headerButtons a {
+		line-height: 40px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: transparent;
+	}
+
+
+	div#headerButtons a:hover {
+		background: rgb(9, 86, 27);
+	}
+
+
+	    /* Section Başlangıcı */
+
+	    /* Birinci Section */
+
+	section.limitedSec {
+		width: 460px;
+		position: relative;
+		margin:auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2 {
+		text-align: center; 
+	}
+
+	section.limitedSec img {
+		width: 400px;
+		margin-top: 50px;
+		border: 1px solid #000000;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	section.limitedSec article {
+		width: 400px;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+
+	section.limitedSec article p {
+		margin-top: 20px;
+	}
+
+	/* İkinci Section */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		background: #000000;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menüContainer {
+		width: 460px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	section.unlimitedSec div#menüContainer img {
+		width: 115px;
+		height: 115px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer img:hover {
+		opacity: 1;
+		transform: scale(1.01);
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer{
+		width: 345px;
+		height: 175px;
+		position: absolute;
+		border: 1px solid #ffffff;
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer h1{
+		color: #ffffff;
+		text-align: center;
+		margin-top: 38.5px;
+		font-size: 22px;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a{
+		width: 220px;
+		height: 40px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		line-height: 40px;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a:hover{
+		background: rgb(9, 86, 27);
+	}
+
+	                   /* Üçüncü Section */
+
+	section.limitedSec div#teamContainer {
+		width: 460px;
+		height: 1150px;
+		position: relative;
+		margin: auto;
+		height: 70px;
+	}
+
+	section#sıkıntı {
+		height: 1150px;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile {
+		width: 220px;
+		position: relative;
+		margin:auto;
+		overflow: hidden;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile img {
+		width: 220px;
+		height: 320px;
+	}
+
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover {
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: 50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../İmages/image1.jpg);
+		background-size: cover;
+		background-position: center;
+		opacity: 0.7;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile:hover div.teamHover {
+		left:0;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText {
+		background: #000000;
+		color: #ffffff;
+		line-height: 50px;
+		margin-top: 110px;
+		text-shadow: 1px 1px1px #000000;
+	}
+
+	                /* Yondaime Section */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 460px;
+		height: 350px;
+		position: relative;
+		margin:auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 460px;
+		height: 350px;
+		position: relative;
+		float: left;
+		background: rgba(0,0,0,0.5);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1 {
+		font-size: 30px;
+		margin-top: 25px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2 {
+		font-size: 22px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p {
+		font-size: 18px;
+		line-height: 28px;
+		width: 450px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	section.contentContainer {
+		width: 460px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	/* Hakkımızda Başlangıcı */
+
+	section.contentContainer h1, section.contentContainer h2 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		text-align: justify;
+	}
+
+	section.contentContainer div.managerBox {
+		width: 350px;
+		margin: auto;
+		position: relative;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img {
+		width: 350px;
+	}
+
+	/* İletişim Başlangıcı */
+
+	section.contentContainer div.contactParts {
+		width: 460px;
+		position: relative;
+		margin: auto;
+	}
+
+	section.contentContainer div.contactParts h2{
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.contactParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin:25px auto 0;
+		text-align: center;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts input.inputLeft{
+		display: block;
+		margin:25px auto 0;
+	}
+
+	section.contentContainer div.contactParts input.inputRight{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts textarea {
+		width: 460px;
+		height: 230px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer div.contactParts form input.submit {
+		width: 310px;
+		height:  40px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		background: transparent;
+		margin:25px auto 0;
+		transition: all .2s ease;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	section.unlimitedSec iframe {
+		width: 100%;
+		height: 250px;
+		position: relative;
+	}
+
+	/*Menü Başlangıcı*/
+
+	section#menüSec {
+		background: url(../İmages/m-bc.jpg);
+		height: 2050px;
+	}
+
+	section.contentContainer table.menüTable, section.contentContainer table.menüTable tr, section.contentContainer table.menüTable tr td {
+		border: 1px solid ;
+		width: 420px;
+	}
+
+	section.contentContainer table.menüTable {
+		margin-top: 15px;
+		margin-left:20px;	}
+
+	div#headerMenüText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div.headerMenüButtons {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.headerMenüButtons a {
+		display: none;
+	}
+
+	div#pizzayolu a:hover {
+		background: url(../İmages/m-pzza.jpg);
+	}
+
+	div#iccekyolu a:hover {
+		background: url(../İmages/m-iccek.jpg);
+	}
+
+	div#yanyolu a:hover {
+		background: url(../İmages/m-pttes.jpg);
+	}
+
+	section.contentContainer div#packaceContainer {
+		width: 198px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+		margin-left: 130px;
+		margin-top: 50px;
+	}
+
+	section.contentContainer div#packaceContainer a {
+		width: 198px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		line-height: 50px;
+		font-size: 20px;
+		transition: all .2s ease-in-out;
+		background: rgb(9, 86, 27);		
+	}
+
+	section.contentContainer div#packaceContainer a:hover {
+		background: url(../İmages/pck.png);
+	}
+
+				/* Paket Servis Bölümü */
+
+
+	section.contentContainer div.packaceParts {
+		width: 460px;
+		position: relative;
+		float: left;
+		margin:auto;
+	}
+
+	section.contentContainer div.packaceParts input.input {
+		width: 310px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin:25px auto 0;
+		text-align: center;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts form input.inputLeft{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts form input.inputRight{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts table.paket {
+		width: 460;
+		height: 30px;
+		border: 1px solid #95a5a6;
+		margin-top: 25px;
+	}
+
+	section.contentContainer div.packaceParts table.paket tr td select {
+		width: 460px;
+	}
+
+	section.contentContainer div.packaceParts textarea {
+		width: 460px;
+		height: 150px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+	}
+
+	section.contentContainer input#butonpakte {
+		width: 310px;
+		height:  50px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 40px;
+		background: transparent;
+		margin:25px auto 0;
+		transition: all .2s ease;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer input#butonpakte:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+
+	      /* Footer Alanı */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../İmages/footer.jpg) 3px;
+	}
+
+	footer div#footerContainer {
+		width: 460px;
+		position: relative;
+		margin: auto;
+		padding: 50px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 300px;
+		position: relative;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 40px;
+		margin-top: 10px;
+	}
+
+	footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid rgb(9, 86, 27);
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p {
+		text-align: left;
+		line-height: 30px;
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input {
+		width: 300px;
+		height: 35px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+
+    /* Header Başlangıcı */
+	header#mainHeader {
+		width: 100%;
+		height: 400px;
+		position: relative;
+		background: url(../İmages/hd.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	header#contentHeader {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+	div#headerContainer {
+		width: 300px;
+		height: 500px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#contentHeaderContainer {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#headerTop {
+		width: 300px;
+		height: 40px ;
+		position: relative;
+	}
+
+	ul#ulTopLeft {
+		display: none;
+	}
+
+	div#topRight {
+		display: none;
+	}
+
+	/*    nav başlanıç      */
+
+	nav {
+		width: 100%;
+		height: 60px;
+		position: relative;
+		background: rgba(0,0,0,0.5);
+		position: absolute;
+		top: 40px;
+	}
+
+	div#navContainer {
+		width: 300px;
+		height: 50px;
+		position: relative;
+		margin: auto;
+	}
+
+	div#navLogo {
+		font-family: 'Bungee', cursive;
+		color: #ffffff;
+		font-size:30px;
+		line-height: 60px;
+		display: inline;
+		float: left;
+
+	}
+
+	ul#ulNavRight {
+		list-style-type: none;
+		display: inline-block;
+		float: right;
+		display: none;
+	}
+	/*  desktop nav
+	ul#ulNavRight li {
+		display: inline-block;
+		line-height: 80px;
+		margin-left: 20px;
+	}
+
+	ul#ulNavRight li a {
+		color: #ffffff;
+	}
+
+	ul#ulNavRight li a:hover {
+		color: #95a5a6;
+	}
+
+	*/
+
+	/* nav mobile*/
+
+	div#navMobileButton {
+		width: 40px;
+		height:40px;
+		position: relative;
+		float: right;
+		background: url(../İmages/menu-icon.png);
+		margin-top: 10px;
+
+	}
+
+	ul#ulNavMobile {
+		width: 300px;
+		position:absolute;
+		top: 50px;
+		background:rgb(9, 86, 27);
+		display: none;
+		z-index: 1;
+	}
+
+	ul#ulNavMobile li {
+		text-align: center;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	ul#ulNavMobile li:last-child {
+		border:0;
+	}
+
+	ul#ulNavMobile li a {
+		width: 300px;
+		line-height: 45px;
+		color: #ffffff;
+		display: block;
+	}
+
+	ul#ulNavMobile li a:hover {
+		background: #ffffff;
+		color: rgb(9, 86, 27);
+	}
+
+	div#headerText {
+		margin-top: 100px;
+		color: #ffffff;
+	}
+
+	div#headerText h1 {
+		line-height: 40px;
+		font-size: 18px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText h2 {
+		line-height: 40px;
+		font-size: 20px;
+		text-shadow: 5px 5px 10px #000000;
+	}
+
+	div#headerText p {
+		font-size: 15px;
+		display: inline-block;
+		background: rgba(0,0,0,0.5);
+		padding-right: 20px;
+		text-shadow: 1px 1px 1px #000000;
+	}
+
+	div#headerButtons {
+		margin-top: 20px;
+
+	}
+
+	div#headerButtons a {
+		line-height: 35px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		padding: 0 20px;
+		transition: all .2s ease-in-out;
+		text-shadow: 1px 1px 1px #000000;
+		background: transparent;
+	}
+
+
+	div#headerButtons a:hover {
+		background: rgb(9, 86, 27);
+	}
+
+
+	    /* Section Başlangıcı */
+
+	    /* Birinci Section */
+
+	section.limitedSec {
+		width: 300px;
+		position: relative;
+		margin:auto;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	section.limitedSec h1, section.limitedSec h2 {
+		text-align: center;
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	section.limitedSec img {
+		width: 300px;
+		margin-top: 50px;
+		border: 1px solid #000000;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+
+	section.limitedSec article {
+		width: 300px;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	section.limitedSec article div.iconBox {
+		width: 100px;
+		height: 100px;
+		margin: auto;
+	}
+
+	section.limitedSec article p {
+		margin-top: 20px;
+	}
+
+	/* İkinci Section */
+
+	section.unlimitedSec {
+		width: 100%;
+		position: relative;
+		background: #000000;
+		margin-top: 50px;
+	}
+
+	section.unlimitedSec div#menüContainer {
+		width: 300px;
+		position: relative;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		align-content: center;
+	}
+
+	section.unlimitedSec div#menüContainer img {
+		width: 150px;
+		height: 150px;
+		opacity: 0.5;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer img:hover {
+		opacity: 1;
+		transform: scale(1.01);
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer{
+		width: 300px;
+		position: absolute;
+		text-align: center;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer h1{
+		color: #ffffff;
+		text-align: center;
+		margin-top: 244px;
+		font-size: 22px;
+		line-height: 40px;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a{
+		width: 220px;
+		height: 40px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		color: #ffffff;
+		line-height: 40px;
+		transition: all .2s ease-in-out;
+	}
+
+	section.unlimitedSec div#menüContainer div#menuLinkContainer a:hover{
+		background: rgb(9, 86, 27);
+	}
+
+	                   /* Üçüncü Section */
+
+	section.limitedSec div#teamContainer {
+		width: 300px;
+		height: 1150px;
+		position: relative;
+		margin: auto;
+		height: 70px;
+	}
+
+	section#sıkıntı {
+		height: 1150px;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile {
+		width: 220px;
+		position: relative;
+		margin:auto;
+		overflow: hidden;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile img {
+		width: 220px;
+		height: 320px;
+	}
+
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover {
+		width: 220px;
+		height: 320px;
+		background: red;
+		position: absolute;
+		top: 50px;
+		left: -220px;
+		transition: all .5s ease;
+		background: url(../İmages/image1.jpg);
+		background-size: cover;
+		background-position: center;
+		opacity: 0.7;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile:hover div.teamHover {
+		left:0;
+	}
+
+	section.limitedSec div#teamContainer div.teamTile div.teamHover div.teamText {
+		background: #000000;
+		color: #ffffff;
+		line-height: 50px;
+		margin-top: 110px;
+		text-shadow: 1px 1px1px #000000;
+	}
+
+	                /* Yondaime Section */
+
+	section.unlimitedSec div.unlimitedSecContainer {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		margin:auto;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft {
+		width: 300px;
+		height: 300px;
+		position: relative;
+		float: left;
+		background: rgba(0,0,0,0.5);
+		text-align: center;
+		color: #ffffff;
+		text-shadow: 1px 1px 1px #000000;
+		padding: 20px 0;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h1 {
+		font-size: 18px;
+		margin-top: 25px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft h2 {
+		font-size: 18px;
+	}
+
+	section.unlimitedSec div.unlimitedSecContainer div.unlimitedSecLeft p {
+		font-size: 15px;
+		width: 280px;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	section.contentContainer {
+		width: 300px;
+		position: relative;
+		margin: 50px auto;
+	}
+
+	/* Hakkımızda Başlangıcı */
+
+	section.contentContainer h1, section.contentContainer h2 {
+		text-align: center;
+	}
+
+	section.contentContainer p {
+		margin: 20px 0;
+		text-align: justify;
+	}
+
+	section.contentContainer div.managerBox {
+		width: 280px;
+		margin: auto;
+		position: relative;
+		border-bottom: 2px solid #000000;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.managerBox img {
+		width: 280px;
+	}
+
+	/* İletişim Başlangıcı */
+
+	section.contentContainer div.contactParts {
+		width: 300px;
+		position: relative;
+		margin: 50px auto 0;
+	}
+
+	section.contentContainer div.contactParts h2{
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	section.contentContainer div.contactParts input.input {
+		width: 300px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin:25px auto 0;
+		text-align: center;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts input.inputLeft{
+		display: block;
+		margin:25px auto 0;
+	}
+
+	section.contentContainer div.contactParts input.inputRight{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts textarea {
+		width: 280px;
+		height: 200px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+		margin-left: 10px;
+	}
+
+	section.contentContainer div.contactParts form input.submit {
+		width: 280px;
+		height:  40px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		background: transparent;
+		margin:25px auto 0;
+		transition: all .2s ease;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.contactParts input.submit:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+	section.unlimitedSec iframe {
+		width: 100%;
+		height: 200px;
+		position: relative;
+	}
+
+	/*Menü Başlangıcı*/
+
+	section#menüSec {
+		background: url(../İmages/m-bc.jpg);
+		height: 2050px;
+	}
+
+	section.contentContainer table.menüTable, section.contentContainer table.menüTable tr, section.contentContainer table.menüTable tr td {
+		border: 1px solid ;
+		width: 250px;
+		text-align: center;
+	}
+
+	section.contentContainer table.menüTable {
+		margin-top: 15px;
+		margin-left:25px;	
+	}
+
+	div#headerMenüText {
+		margin-top: 259px;
+		color: #ffffff;
+	}
+
+	div.headerMenüButtons {
+		margin-top: 20px;
+		float: left;
+		margin-left: 20px;
+	}
+
+	div.headerMenüButtons a {
+		display: none;
+	}
+
+	div#pizzayolu a:hover {
+		background: url(../İmages/m-pzza.jpg);
+	}
+
+	div#iccekyolu a:hover {
+		background: url(../İmages/m-iccek.jpg);
+	}
+
+	div#yanyolu a:hover {
+		background: url(../İmages/m-pttes.jpg);
+	}
+
+	section.contentContainer div#packaceContainer {
+		width: 150px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		margin-top: 170px;
+		text-align: center;
+		margin-left: 75px;
+		margin-top: 50px;
+	}
+
+	section.contentContainer div#packaceContainer a {
+		width: 150px;
+		height: 50px;
+		border: 1px solid #ffffff;
+		display: inline-block;
+		line-height: 50px;
+		font-size: 17px;
+		transition: all .2s ease-in-out;
+		background: rgb(9, 86, 27);		
+	}
+
+	section.contentContainer div#packaceContainer a:hover {
+		background: url(../İmages/pck.png);
+	}
+
+				/* Paket Servis Bölümü */
+
+
+	section.contentContainer div.packaceParts {
+		width: 300px;
+		position: relative;
+		float: left;
+		margin:50px auto 0;
+	}
+
+	section.contentContainer div.packaceParts input.input {
+		width: 300px;
+		height:40px;
+		position: relative;
+		border:1px solid #95a5a6;
+		box-sizing: border-box;
+		margin:25px auto 0;
+		text-align: center;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts form input.inputLeft{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts form input.inputRight{
+		margin:25px auto 0;
+		display: block;
+	}
+
+	section.contentContainer div.packaceParts table.paket {
+		width: 300;
+		height: 30px;
+		border: 1px solid #95a5a6;
+		margin-top: 25px;
+	}
+
+	section.contentContainer div.packaceParts table.paket tr td select {
+		width: 300px;
+	}
+
+	section.contentContainer div.packaceParts textarea {
+		width: 290px;
+		height: 150px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 20px;
+		box-sizing: border-box;
+		padding: 10px;
+		resize: none;
+		border-radius: 10px;
+		margin-left: 5px;
+	}
+
+	section.contentContainer input#butonpakte {
+		width: 150px;
+		height:  50px;
+		position: relative;
+		border: 1px solid #95a5a6;
+		margin-top: 40px;
+		background: transparent;
+		margin:25px auto 0;
+		transition: all .2s ease;
+		border-radius: 10px;
+		display: block;
+	}
+
+	section.contentContainer input#butonpakte:hover {
+		cursor: pointer;
+		background: rgb(9, 86, 27);
+		color: #ffffff;
+		border: 1px solid rgb(9, 86, 27);
+	}
+
+
+	      /* Footer Alanı */
+
+	footer {
+		width: 100%;
+		position: relative;
+		background: url(../İmages/footer.jpg) 3px;
+	}
+
+	footer div#footerContainer {
+		width: 300px;
+		position: relative;
+		margin: auto;
+		padding: 50px 0;
+	}
+
+	footer div#footerContainer div.footerBox {
+		width: 300px;
+		position: relative;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox h1 {
+		font-family: 'Pacifico', cursive;
+		font-size: 40px;
+	}
+
+	footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid rgb(9, 86, 27);
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox p {
+		text-align: left;
+		line-height: 30px;
+		width: 300px;
+		margin: auto;
+	}
+
+	footer div#footerContainer div.footerBox input {
+		width: 300px;
+		height: 35px;
+		margin-top: 20px;
+		font-size: 18px;
+	}
+
+	footer div#copyright {
+		width: 100%;
+		background: #000000;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 10px 0;
+		text-align: center;
+	}
+}
